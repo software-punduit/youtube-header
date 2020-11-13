@@ -33,8 +33,6 @@ header {
 .search-container {
   float: left;
   background-color: white;
-  margin-right: 100px;
-  margin-left: 100px;
 }
 
 .search-container label {
