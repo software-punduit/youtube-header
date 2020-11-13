@@ -31,7 +31,6 @@ header {
 }
 
 .search-container {
-  display: inline-block;
   float: left;
   background-color: white;
   margin-right: 100px;
@@ -41,12 +40,12 @@ header {
 .search-container label {
   padding-left: 16px;
 }
+
 .search-container button {
   padding-top: 10px;
 }
 
 .search-container input {
-  display: block;
   float: left;
 
   border: 0;
@@ -55,16 +54,6 @@ header {
   padding-left: 16px;
 }
 
-.material-icons-lists {
-  float: left;
-  display: inline-block;
-  padding-right: 64px;
-  height: 72px;
-  line-height: 72px;
-}
-
-.cta {
-  display: inline-block;
+.nav-area {
   float: right;
-  padding-right: 64px;
 }
