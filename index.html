@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Youtube header</title>
 
     <!-- Google Material Font Stylesheet -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/stylesheets/styles.css" />
@@ -25,30 +27,30 @@
 
       <div class="search-container">
         <form action="https://google.com/search">
-          <button>
-            <label for="search-input">
-              Search
+          <label for="search-input">
+            Search
+            <button type="button" class="btn">
               <i class="material-icons">search</i>
-            </label>
-            <input type="search" id="search-input" name="q" />
-          </button>
+            </button>
+          </label>
+          <input type="search" id="search-input" name="q" />
         </form>
       </div>
 
       <div class="nav-area">
-        <button type="button" class="button">
+        <button type="button" class="btn1">
           <i class="material-icons">video_call</i>
         </button>
 
-        <button type="button" class="button">
+        <button type="button" class="btn2">
           <i class="material-icons">apps</i>
         </button>
 
-        <button type="button" class="button">
+        <button type="button" class="btn3">
           <i class="material-icons">more_vert</i>
         </button>
 
-        <button type="button" class="button cta">
+        <button type="button" class="button-cta">
           <i class="material-icons">account_circle</i>
           <span>SIGN IN</span>
         </button>
@@ -56,5 +58,4 @@
       <div class="clearfix"></div>
     </header>
   </body>
-
 </html>
